@@ -1,4 +1,4 @@
-# GitHub Copilot 入門
+# 🧪 GitHub Copilot 入門
 
 > ※ このハンズオンは、[dzeyelid](https://github.com/dzeyelid)氏作成の[GitHub-Zen-Labs/github-copilot-playground short.md](https://github.com/GitHub-Zen-Labs/github-copilot-playground/blob/main/docs/comprehensive/self-paced-handson/short.md) と同一の内容になります。
 
@@ -208,4 +208,4 @@ GitHub Copilot Chatは会話の文脈を考慮して回答してくれます。�
 
 ---
 
-[📋 セルフペースドハンズオン目次へ戻る](../README.md)
+[📋 セルフペースドハンズオンの目次へ戻る](./README.md)

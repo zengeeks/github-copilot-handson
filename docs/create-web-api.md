@@ -1,15 +1,15 @@
-# JavaScript: Express を使った Web API の作成
+# 🧪 JavaScript: Express を使った Web API の作成
 
 ここでは、GitHub Copilot Chat を活用して、Node.js の代表的なフレームワークである Express.js で Web API の作成にチャレンジします。
 
 以下の流れて製品 (product) を管理する Web API を作成します。
 
-- [product の新規追加 API の作成](#product-の新規追加-API-の作成)
-- [product 一覧の取得 API の作成](#product-一覧の取得-API-の作成)
+- [Product の新規追加 API の作成](#product-の新規追加-API-の作成)
+- [Product 一覧の取得 API の作成](#product-一覧の取得-API-の作成)
 - [次のステップ](#次のステップ)
 
 
-## product の新規追加 API の作成
+## Product の新規追加 API の作成
 
 準備として、Codespaces で以下の操作をします。
 
@@ -102,7 +102,7 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 ```
 
 
-## product 一覧の取得 API の作成
+## Product 一覧の取得 API の作成
 
 次に、product 一覧を取得する API を作成します。デバッグを停止して、GitHub Copilot Chat に以下の文章を入力します。
 
