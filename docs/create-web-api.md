@@ -192,3 +192,6 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 - product の `name` でデータを取得する API を作成してみましょう。
 - テストコードを書いてみましょう。
 
+---
+
+[📋 セルフペースドハンズオンの目次へ戻る](./README.md)
