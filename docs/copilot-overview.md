@@ -19,8 +19,6 @@ GitHub Copilot の代表的な機能を3つ紹介します。
 **GitHub Copilot Chat** | IDEまたはモバイルアプリ（※2）上で、会話形式でAIによるコード生成、解説を支援する。LLMモデルはGPT-4（※3）。
 **Copilot in the CLI** | AIによるコマンドの生成支援
 
-> [!NOTE]
->
 > - ※1 2023年6月時点の情報。
 >   - 参考: [GitHub Copilot - June 29th Update - The GitHub Blog](https://github.blog/changelog/2023-06-29-copilot-june-2023-update/#code-completion-improvements)  
 >   GitHub Copilot is now even more powerful and responsive for developers, thanks to a new model powered by GPT-3.5 Turbo through the collaboration across OpenAI, Azure AI, and GitHub that offers 13% latency improvements.
@@ -47,6 +45,7 @@ GitHub Enterprise で提供されているすべての機能や料金プラン�
 
 - [Pricing - GitHub Copilot · Your AI pair programmer](https://github.com/features/copilot#pricing)
 
+<br>
 
 ## ハンズオンの開始
 
