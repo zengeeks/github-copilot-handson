@@ -31,7 +31,7 @@ GitHub Copilot の代表的な機能を3つ紹介します。
 プラン | 概要
 ----|----
 **GitHub Copilot Individual** | 個人利用向けプラン。データの収集の可否を選択できる。
-**GitHub Copilot Business** | Organization単位、Enterprise単位での利用。Individualと異なり、データの収集は一律行わない。Individualより優先される。
+**GitHub Copilot Business** | Organization単位、Enterprise単位での利用。Individualと異なり、データの収集は一律行わない。
 **GitHub Copilot Enterprise** | Individual/Business の機能に加え、多くの機能を提供。詳細は後述。
 
 #### GitHub Copilot Enterprise について
