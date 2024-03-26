@@ -2,12 +2,11 @@
 
 ここでは、GitHub Copilot Chat を活用して、Node.js の代表的なフレームワークである Express.js で Web API の作成にチャレンジします。
 
-以下の流れて製品 (product) を管理する Web API を作成します。
+以下のハンズオン構成で、製品 (product) を管理する Web API を作成します。
 
 - [Product の新規追加 API の作成](#product-の新規追加-API-の作成)
 - [Product 一覧の取得 API の作成](#product-一覧の取得-API-の作成)
 - [次のステップ](#次のステップ)
-
 
 ## Product の新規追加 API の作成
 
@@ -20,8 +19,7 @@
 
 <br>
 
-
-`CTRL` + `ALT` + `I` でサイドバーに GitHub Copilot Chat を表示し以下を入力しましょう。
+`CTRL` + `ALT` + `I` でサイドバーに GitHub Copilot Chat を表示し、以下を入力しましょう。
 
 ```txt
 Express を使って product を管理する web api を作りたいです。以下の仕様を満たすコードを書いてください。
@@ -35,7 +33,6 @@ GitHub Copilot Chat からの回答に沿って実装を進めてみましょう
 
 - 実装が終わったらターミナルで `node app.js` を実行して API が実行することを確認してみましょう。
 - 実行時にエラーが出た場合は、エラーメッセージを GitHub Copilot Chat に入力して解決しましょう。
-
 
 正常に実行できた場合、以下図のように「Server running on port 3000」と表示されます。
 
@@ -51,12 +48,11 @@ GitHub Copilot Chat からの回答に沿って実装を進めてみましょう
 > [!TIP]
 > これは VS Code の拡張機能 Rest Client を使って API をコールする方法です。
 
-
 ![image](images/create-web-api/1-03.png)
 
 <br>
 
-正常にレスポンスを取得できた場合、product.json といったファイルにファイルにデータが保存されていることを確認します。  
+正常にレスポンスを取得できた場合、product.json といったファイルにデータが保存されていることを確認します。  
 なお、保存先のファイル名は生成されたコードによって異なる場合はありますので、実装されたコードに合わせて確認します。
 
 同じリクエストをもう一度送信して、データが追加されることを確認しましょう。
@@ -101,7 +97,6 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
 ```
 
-
 ## Product 一覧の取得 API の作成
 
 次に、product 一覧を取得する API を作成します。デバッグを停止して、GitHub Copilot Chat に以下の文章を入力します。
@@ -129,7 +124,6 @@ product 一覧を取得するコードを追加して
 - エラーが出た場合は、エラーメッセージを GitHub Copilot Chat に入力して解決しましょう。
 - 正常に起動したら、test.http を開き、`GET http://localhost:3000/products` の Send Request をクリックして、product 一覧が取得できることを確認します。
 - 改めて test.http でproduct の新規追加 API をコール後、product 一覧でデータが増えていることを確認します。
-
 
 参考までにここまでのサンプルコードを記載します。
 
@@ -188,7 +182,7 @@ app.listen(port, () => console.log(`Server running on port ${port}`));
 
 後は時間の許す限り自由に Web API の機能を充実させていきましょう。機能追加のアイデアをいくつかあげます。
 
-- product の新規作成時、`id` が重複している場合は HttpStatus 409 を返す実証を追加してみましょう。
+- product の新規作成時、`id` が重複している場合は HttpStatusCode 409 を返す実証を追加してみましょう。
 - product の `name` でデータを取得する API を作成してみましょう。
 - テストコードを書いてみましょう。
 

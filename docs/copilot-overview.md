@@ -11,13 +11,13 @@ GitHub Copilotは、GitHubが開発した開発に特化したAIアシスタン�
 
 ### 機能
 
-| 機能 | リリース状況 | 説明 |
-|----|----|----|
-| **GitHub Copilot(Code completion)** | GA | AIによるコード補完。IDEの拡張機能として提供される。LLMモデルはGPT-3.5 Turbo（※1）。 |
-| **GitHub Copilot Chat** | Public beta, 12月GA予定 | IDEまたはモバイルアプリ（※2）上で、会話形式でAIによるコード生成、解説を支援する。LLMモデルはGPT-4（※3）。 |
-| **Copilot in the CLI** | Public beta | AIによるコマンド生成支援 |
-| GitHub Copilot Chat in GitHub.com | GitHub Enterpriseに内包予定 | GitHub.com上でGitHub Copilot Chatを利用できる。指定したリポジトリをコンテキストに含められる。 |
-| GitHub Copilot pull request summaries | GitHub Enterpriseに内包予定 | プルリクエストのdescriptionに、AIによる変更内容サマリを提示してくれる。 |
+機能 | 説明
+---- | ----
+**GitHub Copilot(Code completion)** | AIによるコード補完。IDEの拡張機能として提供される。LLMモデルはGPT-3.5 Turbo（※1）。
+**GitHub Copilot Chat** | IDEまたはモバイルアプリ（※2）上で、会話形式でAIによるコード生成、解説を支援する。LLMモデルはGPT-4（※3）。
+**Copilot in the CLI** | AIによるコマンド生成支援
+GitHub Copilot Chat in GitHub.com | GitHub Copilot Enterprise の一部。GitHub.com上でGitHub Copilot Chatを利用できる。指定したリポジトリをコンテキストに含められる。
+GitHub Copilot pull request summaries | GitHub Copilot Enterprise の一部。プルリクエストのdescriptionに、AIによる変更内容サマリを提示してくれる。
 
 > [!NOTE]
 >
@@ -28,28 +28,24 @@ GitHub Copilotは、GitHubが開発した開発に特化したAIアシスタン�
 > - ※3 GitHub Universe 2023で、GitHub Copilot ChatはGPT-4ベースだと公表されている。
 >   - 参考: [Universe 2023: Copilot transforms GitHub into the AI-powered developer platform - The GitHub Blog](https://github.blog/2023-11-08-universe-2023-copilot-transforms-github-into-the-ai-powered-developer-platform/)
 
-### 料金体系
+### 料金プランと機能
 
-| プラン | 説明 |
-|----|----|
-| **GitHub Copilot Individual** | 個人利用向けプラン。データの収集の可否を選択できる。 |
-| **GitHub Copilot Business** | Organization単位、Enterprise単位での利用。Individualと異なり、データの収集は一律行わない。Individualより優先される。 |
-| GitHub Copilot Enterprise | 2024年 GA されたプラン。詳細は後述。 |
+プラン | 概要
+----|----
+**GitHub Copilot Individual** | 個人利用向けプラン。データの収集の可否を選択できる。
+**GitHub Copilot Business** | Organization単位、Enterprise単位での利用。Individualと異なり、データの収集は一律行わない。Individualより優先される。
+GitHub Copilot Enterprise | 2024年登場のプラン。詳細は後述。
 
-#### GitHub Copilot Enterpriseについて
+#### GitHub Copilot Enterprise について
 
-GitHub Copilot Enterpriseは、GitHub Universe 2023で発表され、2024年2月に GA しました。GitHub Copilot Businessの機能に加え、以下のような組織の資産を注入できる機能が含まれるようです。
+GitHub Copilot Enterpriseは、GitHub Universe 2023で発表され、2024年2月に GA しました。GitHub Copilot Businessの機能に加え、GitHub を AI プラットフォームとして進化するための多くの機能が追加されます。その一部は以下です。
 
-- Copilot Chat in GitHub.com
-- Documentation search and summaries
-- Copilot pull request summaries
-- Code review skills
-- Fine-tuned models（現在はプレビュー。2024に利用可能予定。）
+- **CGitHub Copilot Chat in GitHub.com**: GitHub.com 上でリポジトリの内容をコンテキストに含めて、コードの生成や解説が実現できます。
+- **Copilot pull request summaries**: プルリクエスト作成時に、プルリクエストで行われた変更の概要、どのファイルに影響があるか、レビュアーがレビューを行う際に何に注目すべきかの文章を作成できます。
 
-詳しくは下記サービスサイトやドキュメントをご参照ください。
+プランごとの具体的な機能の差分は、以下のリンクをご参照ください。
 
-- 参考: [About GitHub Copilot Enterprise - GitHub Docs](https://docs.github.com/ja/copilot/github-copilot-enterprise/overview/about-github-copilot-enterprise)
-- 参考: [Pricing - GitHub Copilot · Your AI pair programmer](https://github.com/features/copilot#pricing)
+- [Pricing - GitHub Copilot · Your AI pair programmer](https://github.com/features/copilot#pricing)
 
 
 ## ハンズオンの開始
